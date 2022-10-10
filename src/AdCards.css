@@ -1,0 +1,25 @@
+.contratType,
+.fullTime {
+  border: 1px solid #9dd3d8;
+  border-radius: 5px;
+  background-color: #9dd3d8;
+  padding: 4px;
+}
+
+.yellowBar {
+  display: flex;
+  flex-direction: column;
+  background-color: #0b6789;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}
+
+.cardsize:hover {
+  box-shadow: 0 0 2px grey;
+}

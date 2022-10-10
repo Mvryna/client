@@ -1,0 +1,29 @@
+.navbarTitle {
+  color: #2e2f5b !important;
+  font-size: 30px !important;
+  font-style: bold !important;
+  padding: 15px;
+}
+
+.navbarContent {
+  font-size: 19px !important;
+  /* margin-left: 15px !important; */
+}
+
+h1 {
+  color: #9dd3d8;
+}
+
+span {
+  color: white;
+}
+
+.navbarContent:hover {
+  color: #2e2f5b !important;
+  text-shadow: 0 0 0 #2e2f5b;
+}
+
+.searchbtn:hover {
+  background-color: #f2f2f2;
+  border: #f2f2f2;
+}

@@ -1,0 +1,25 @@
+footer {
+  background-color: #0b6789;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.footer_connexion {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 50px;
+}
+
+p {
+  padding-top: 30px;
+}
+
+.foot_link {
+  color: white;
+  text-decoration: none;
+}
+
+.foot_link:hover {
+  color: #9dd3d8;
+}

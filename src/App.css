@@ -1,0 +1,257 @@
+:root {
+  --darkBlue: #0b6789;
+  --lightBlue: #0395a5;
+  --lightestBlue: #9dd3d8;
+  --white: #f2f2f2;
+}
+
+.logo {
+  width: 90px;
+}
+
+/* EXTRA SMALL SCREEN */
+@media only screen and (min-width: 1px) and (max-width: 293px) {
+  .cardsize {
+    width: 90vw;
+    margin-left: 1rem;
+  }
+
+  .card {
+    margin: center;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .learnmore_bigad {
+    background-color: #0b6789 !important;
+    border-color: #0b6789 !important;
+    margin-bottom: 18px;
+  }
+
+  .learnmore {
+    margin-bottom: 18px;
+    display: none;
+  }
+
+  .contratType,
+  .fullTime {
+    display: inline-block;
+  }
+
+  .jobsearchbar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px !important;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    margin-right: -15px;
+  }
+
+  .citysearchbar {
+    width: 180px !important;
+    height: 60px;
+    border-width: 0 0 0 1px;
+    border-color: #0b6789;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-radius: 7px;
+    padding: 10px;
+  }
+
+  .searchbtn {
+    background-color: #9dd3d8;
+    border: 2px solid #9dd3d8;
+    border-radius: 5px;
+    height: 60px;
+    width: 120px;
+    margin-top: 5px;
+    font-size: 18px !important;
+  }
+
+  .search {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .accroche {
+    margin-left: 20px;
+  }
+}
+
+/* SMALL SCREEN */
+@media only screen and (min-width: 294px) and (max-width: 550px) {
+  .card {
+    margin: center;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .cardsize {
+    width: 94vw;
+    margin-left: 1rem;
+  }
+
+  .navbarContent:hover {
+    color: #2e2f5b !important;
+  }
+
+  .GAUCHE {
+    scroll-behavior: smooth;
+  }
+
+  .DROITE {
+    display: none;
+  }
+
+  .p.card-text {
+    margin: 5px;
+  }
+
+  .contratType,
+  .fullTime {
+    display: inline-block;
+  }
+
+  .learnmore_bigad {
+    background-color: #0b6789 !important;
+    border-color: #0b6789 !important;
+    margin-bottom: 18px;
+  }
+
+  .learnmore {
+    display: none !important;
+  }
+
+  .jobsearchbar {
+    width: 260px !important;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    margin-right: -15px;
+  }
+
+  .citysearchbar {
+    width: 180px !important;
+    height: 60px;
+    border-width: 0 0 0 1px;
+    border-color: #0b6789;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-radius: 7px;
+    padding: 10px;
+  }
+
+  .searchbtn {
+    background-color: #9dd3d8;
+    border: 2px solid #9dd3d8;
+    border-radius: 5px;
+    height: 60px;
+    width: 120px;
+    margin-top: 5px;
+    font-size: 18px !important;
+  }
+
+  .search {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .accroche {
+    margin-left: 20px;
+  }
+}
+
+/* MEDIUM SCREEN */
+@media only screen and (min-width: 551px) and (max-width: 1800px) {
+  .card {
+    margin-left: 25px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+
+  .contratType,
+  .fullTime {
+    display: inline-block;
+  }
+
+  .GAUCHE > .contratType {
+    display: inline-block;
+  }
+
+  .TOUT {
+    display: flex;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .DROITE {
+    width: 100%;
+    height: 200px;
+    position: sticky;
+    bottom: 0;
+    top: 20px;
+    margin-left: 6px;
+  }
+
+  .GAUCHE {
+    width: 50%;
+  }
+
+  .learnmore_bigad {
+    display: none !important;
+  }
+
+  .learnmore {
+    background-color: #0b6789 !important;
+    border-color: #0b6789 !important;
+    margin-bottom: 18px;
+    margin-bottom: 18px;
+  }
+
+  .jobsearchbar {
+    width: 260px !important;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    margin-right: -15px;
+  }
+
+  .citysearchbar {
+    width: 180px !important;
+    height: 60px;
+    border-width: 0 0 0 1px;
+    border-color: #0b6789;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-radius: 7px;
+    padding: 10px;
+  }
+
+  .searchbtn {
+    background-color: #9dd3d8;
+    border: 2px solid #9dd3d8;
+    border-radius: 5px;
+    height: 60px;
+    width: 120px;
+    margin-top: 5px;
+    font-size: 18px !important;
+  }
+
+  .allsearch {
+    display: flex;
+  }
+
+  .accroche {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .modalBtn {
+    margin-right: 15px;
+  }
+}
